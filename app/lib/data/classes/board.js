@@ -1,8 +1,12 @@
-class Board{
-    constructor(){
-        this.id = null;
-        this.boardName = null;
-        this.boardCreationDate = null;
-        this.boardImageFilename = null;
-    }
+class Board {
+  constructor() {
+    this.id = null;
+    //Strong
+    this.adminPublicKey = null;
+    this.infoSignature = null;
+
+    this.boardName = null;
+    this.creationTimestamp = null;
+    this.boardImageFilename = null;
+  }
 }

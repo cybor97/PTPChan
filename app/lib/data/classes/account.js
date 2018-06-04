@@ -1,9 +1,12 @@
-class Account{
-    constructor(){
-        this.id = null;
-        this.userName = null;
-        this.passwordHash = null;
-        this.signUpDate = null;
-        this.lastActionDate = null;
-    }
+class Account {
+  constructor() {
+    this.id = null;
+    this.userName = null;
+
+    this.signUpTimestamp = null;
+    this.lastActionTimestamp = null;
+
+    this.accountSignature = null;
+    this.publicKey = null;
+  }
 }
